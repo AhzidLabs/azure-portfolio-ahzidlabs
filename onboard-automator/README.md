@@ -24,6 +24,7 @@ $rg = "RG-Onboard-Automator"
 $sub = (Get-AzContext).Subscription.Id
 $scope = "/subscriptions/$sub/resourceGroups/$rg"
 New-AzRoleAssignment -SignInName "john.doe@<tenant>.onmicrosoft.com" -RoleDefinitionName "Reader" -Scope $scope
+
 Evidence (Screenshots to upload later)
 
 RG overview (name & region)
@@ -39,3 +40,4 @@ Tags & Locks pages
 Cost
 
 ≈ £0–£0.40/month (per-run billing only; Entra ID Free = £0).
+
